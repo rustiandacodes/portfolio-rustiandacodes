@@ -7,3 +7,7 @@ html {
 body {
   font-family: 'Montserrat', sans-serif;
 }
+
+.show {
+  @apply translate-x-0 transition duration-300;
+}

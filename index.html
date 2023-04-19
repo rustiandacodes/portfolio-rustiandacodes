@@ -14,7 +14,7 @@
     <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
     <title>Adzeni Rustianda | Front-End Developer</title>
   </head>
-  <body>
+  <body class="relative">
     <nav class="shadow-lg py-6 px-10 lg:px-0 z-[999] fixed w-full bg-white">
       <div class="container mx-auto flex justify-between items-center">
         <span
@@ -25,32 +25,64 @@
         <ul
           class="md:flex hidden justify-center items-center gap-10 bg-white text-slate-800"
         >
-          <li>
+          <li class="list">
             <a href="#" class="font-bold text-[1rem]">
               Home
             </a>
           </li>
-          <li>
+          <li class="list">
             <a class="font-bold text-[1rem]" href="#about">
               About
             </a>
           </li>
-          <li>
+          <li class="list">
             <a class="font-bold text-[1rem]" href="#projects">
               Projects
             </a>
           </li>
-          <li>
+          <li class="list">
             <a class="font-bold text-[1rem]" href="#contact">
               Contact
             </a>
           </li>
         </ul>
+        <div id="menu" class="text-slate-800 md:hidden cursor-pointer text-xl">
+          <i data-feather="menu"></i>
+        </div>
       </div>
+    </nav>
+    <nav
+      id="navbar-mobile"
+      class="fixed bg-slate-50 top-0 right-0 bottom-0 left-0 h-full z-10 -translate-x-[100%] transition duration-300"
+    >
+      <ul
+        class="flex flex-col justify-center items-center gap-10 h-screen text-slate-800"
+      >
+        <li class="home">
+          <a href="#" class="font-bold text-[1rem]">
+            Home
+          </a>
+        </li>
+        <li class="about">
+          <a class="font-bold text-[1rem]" href="#about">
+            About
+          </a>
+        </li>
+        <li class="projects">
+          <a class="font-bold text-[1rem]" href="#projects">
+            Projects
+          </a>
+        </li>
+        <li class="contact">
+          <a class="font-bold text-[1rem]" href="#contact">
+            Contact
+          </a>
+        </li>
+      </ul>
     </nav>
 
     <!-- hero section -->
-    <section class="pt-40 pb-24 bg-slate-50">
+    <section class="md:pt-40 pt-28 pb-24 bg-slate-50">
       <div
         class="container px-10 mx-auto flex flex-col-reverse lg:flex-row gap-10 lg:gap-0 justify-between items-center"
       >
@@ -518,6 +550,5 @@
       feather.replace()
     </script>
     <script src="./src/app.js"></script>
-    r
   </body>
 </html>
