@@ -5,7 +5,6 @@ const homeLink = document.querySelector('.home')
 const aboutLink = document.querySelector('.about')
 const projectsLink = document.querySelector('.projects')
 const contactLink = document.querySelector('.contact')
-console.log('berhassil')
 
 const toogle = () => {
   navbar.classList.toggle('show')
