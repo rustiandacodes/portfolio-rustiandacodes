@@ -616,6 +616,10 @@ video {
   margin-top: 5rem;
 }
 
+.mr-1 {
+  margin-right: 0.25rem;
+}
+
 .flex {
   display: flex;
 }
@@ -662,6 +666,14 @@ video {
 
 .w-10 {
   width: 2.5rem;
+}
+
+.w-\[80\%\] {
+  width: 80%;
+}
+
+.w-\[85\%\] {
+  width: 85%;
 }
 
 .-translate-x-\[100\%\] {
@@ -926,6 +938,22 @@ video {
 
 .pt-28 {
   padding-top: 7rem;
+}
+
+.pb-10 {
+  padding-bottom: 2.5rem;
+}
+
+.pb-16 {
+  padding-bottom: 4rem;
+}
+
+.pt-24 {
+  padding-top: 6rem;
+}
+
+.pb-12 {
+  padding-bottom: 3rem;
 }
 
 .text-center {
