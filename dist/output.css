@@ -584,10 +584,6 @@ video {
   z-index: 999;
 }
 
-.float-left {
-  float: left;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -598,13 +594,12 @@ video {
   margin-bottom: 2.5rem;
 }
 
-.my-16 {
-  margin-top: 4rem;
-  margin-bottom: 4rem;
-}
-
 .mb-10 {
   margin-bottom: 2.5rem;
+}
+
+.mb-3 {
+  margin-bottom: 0.75rem;
 }
 
 .mr-1 {
@@ -613,10 +608,6 @@ video {
 
 .mt-16 {
   margin-top: 4rem;
-}
-
-.mb-3 {
-  margin-bottom: 0.75rem;
 }
 
 .flex {
@@ -631,16 +622,16 @@ video {
   height: 2.25rem;
 }
 
+.h-\[25rem\] {
+  height: 25rem;
+}
+
 .h-full {
   height: 100%;
 }
 
 .h-screen {
   height: 100vh;
-}
-
-.h-\[25rem\] {
-  height: 25rem;
 }
 
 .w-32 {
@@ -814,6 +805,16 @@ video {
   padding-bottom: 2.5rem;
 }
 
+.py-14 {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -834,16 +835,6 @@ video {
   padding-bottom: 2rem;
 }
 
-.py-14 {
-  padding-top: 3.5rem;
-  padding-bottom: 3.5rem;
-}
-
-.py-20 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-}
-
 .pb-20 {
   padding-bottom: 5rem;
 }
@@ -858,10 +849,6 @@ video {
 
 .pt-20 {
   padding-top: 5rem;
-}
-
-.pt-32 {
-  padding-top: 8rem;
 }
 
 .pt-28 {
@@ -1004,36 +991,12 @@ body {
 }
 
 @media (min-width: 768px) {
-  .md\:float-none {
-    float: none;
-  }
-
   .md\:flex {
     display: flex;
   }
 
   .md\:hidden {
     display: none;
-  }
-
-  .md\:h-\[23rem\] {
-    height: 23rem;
-  }
-
-  .md\:h-\[30rem\] {
-    height: 30rem;
-  }
-
-  .md\:h-\[27rem\] {
-    height: 27rem;
-  }
-
-  .md\:h-\[25rem\] {
-    height: 25rem;
-  }
-
-  .md\:h-\[26rem\] {
-    height: 26rem;
   }
 
   .md\:w-1\/2 {
@@ -1048,24 +1011,12 @@ body {
     gap: 5rem;
   }
 
-  .md\:p-5 {
-    padding: 1.25rem;
-  }
-
-  .md\:p-8 {
-    padding: 2rem;
-  }
-
-  .md\:p-10 {
-    padding: 2.5rem;
-  }
-
-  .md\:p-20 {
-    padding: 5rem;
-  }
-
   .md\:p-16 {
     padding: 4rem;
+  }
+
+  .md\:p-5 {
+    padding: 1.25rem;
   }
 
   .md\:px-0 {
@@ -1089,18 +1040,6 @@ body {
 
   .md\:pt-0 {
     padding-top: 0px;
-  }
-
-  .md\:pt-48 {
-    padding-top: 12rem;
-  }
-
-  .md\:pt-40 {
-    padding-top: 10rem;
-  }
-
-  .md\:pt-44 {
-    padding-top: 11rem;
   }
 
   .md\:pt-32 {
